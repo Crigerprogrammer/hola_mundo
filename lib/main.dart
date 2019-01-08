@@ -18,15 +18,15 @@ class MyApp extends StatelessWidget {
         // or simply save your changes to "hot reload" in a Flutter IDE).
         // Notice that the counter didn't reset back to zero; the application
         // is not restarted.
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.lightGreen,
       ),
       home: Scaffold(
-        appBar: ,
-        body: ,
-        bottomNavigationBar: ,
-        floatingActionButton: ,
-        floatingActionButtonAnimator: ,
-        floatingActionButtonLocation: ,
+        appBar: AppBar(
+          title: Text("Hola Mundo"),
+        ),
+        body: Center(
+          child: Text("Hola Mundo"),
+        ),
       )  // MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
